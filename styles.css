@@ -1,0 +1,87 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif !important;
+}
+
+hr {
+    border: 0.5px solid hsl(215, 32%, 27%);
+}
+
+.outer-card {
+    background-color: #0B172D;
+}
+
+.outer-card-2 {
+    background-color: #0C182D;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+}
+
+.creator-avatar {
+    border: 1px solid hsl(0, 0%, 100%);
+}
+
+.images {
+    position: relative;
+}
+
+.img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(178, 100%, 50%, 0.5);
+    opacity: 0;
+    transition: opacity 350ms;
+    cursor: pointer;
+}
+
+.img-overlay img{
+    position: absolute;
+    opacity: 1;
+    width: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.images:hover .img-overlay {
+    opacity: 1;
+}
+
+h1:hover {
+    color: hsl(178, 100%, 50%) !important;
+    cursor: pointer;
+    transition-duration: 350ms;
+}
+
+span:hover {
+    color: hsl(178, 100%, 50%) !important;
+    cursor: pointer;
+    transition-duration: 350ms;
+}
+
+/* .attribution {
+    margin: 35px 0;
+}
+
+.attribution p {
+    text-align: center;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .attribution p {
+        font-size: 0.85rem;
+        padding: 0 25px;
+    }
+}
+
+.attribution a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+} */
